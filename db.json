@@ -1,0 +1,798 @@
+{
+	"paciente": [
+		{
+			"id": 1,
+			"nome_completo": "Ana Beatriz da Silva",
+			"endereco_completo": "Rua das Flores, 123 - Centro, São Paulo - SP",
+			"codigo_pronto": "X2F9T6LM3JZ1RQ0A7B8YCN4D5EVWGH",
+			"codigo_cns": "123456789000001",
+			"sexo": "F",
+			"data_nascimento": "1985-04-12"
+		},
+		{
+			"id": 2,
+			"nome_completo": "Carlos Eduardo Mendes",
+			"endereco_completo": "Av. Brasil, 456 - Jardim América, Rio de Janeiro - RJ",
+			"codigo_pronto": "N8B6ZQ7MCAPV1X3T4L9FY0EWJRDGHK",
+			"codigo_cns": "123456789000002",
+			"sexo": "M",
+			"data_nascimento": "1979-11-30"
+		},
+		{
+			"id": 3,
+			"nome_completo": "Fernanda Oliveira Santos",
+			"endereco_completo": "Rua Amapá, 77 - Bairro Industrial, Belo Horizonte - MG",
+			"codigo_pronto": "K4T7R2WGHZLY3FVCJX0A89N5D1BMPE",
+			"codigo_cns": "123456789000003",
+			"sexo": "F",
+			"data_nascimento": "1992-07-20"
+		},
+		{
+			"id": 4,
+			"nome_completo": "Lucas Pereira Rocha",
+			"endereco_completo": "Rua do Sol, 89 - Centro, Salvador - BA",
+			"codigo_pronto": "M5VZBCQ0W1AY8RJ3XN2TDKLF9EG7PH",
+			"codigo_cns": "123456789000004",
+			"sexo": "M",
+			"data_nascimento": "1990-01-15"
+		},
+		{
+			"id": 5,
+			"nome_completo": "Mariana Costa Lima",
+			"endereco_completo": "Av. das Palmeiras, 1000 - Zona Sul, Curitiba - PR",
+			"codigo_pronto": "FZ0V7PML9Q3CGAXY5BRWDTKNE281HJ",
+			"codigo_cns": "123456789000005",
+			"sexo": "F",
+			"data_nascimento": "1988-10-10"
+		},
+		{
+			"id": 6,
+			"nome_completo": "João Vitor Almeida",
+			"endereco_completo": "Rua Pedro Álvares, 45 - Vila Nova, Porto Alegre - RS",
+			"codigo_pronto": "QAPX2JRW7M5LYTBGCE9NKD04VH31ZF",
+			"codigo_cns": "123456789000006",
+			"sexo": "M",
+			"data_nascimento": "1982-03-05"
+		},
+		{
+			"id": 7,
+			"nome_completo": "Camila Ribeiro Soares",
+			"endereco_completo": "Av. Central, 22 - Centro, Recife - PE",
+			"codigo_pronto": "XYV5K0WT2RLJPNE9CM4AGD8FBZ731Q",
+			"codigo_cns": "123456789000007",
+			"sexo": "F",
+			"data_nascimento": "1995-06-18"
+		},
+		{
+			"id": 8,
+			"nome_completo": "Rafael Martins Lopes",
+			"endereco_completo": "Rua Independência, 304 - Bairro Novo, Fortaleza - CE",
+			"codigo_pronto": "E3B1CN97XGZLFADYM2KPQJRTV860WH",
+			"codigo_cns": "123456789000008",
+			"sexo": "M",
+			"data_nascimento": "1987-12-22"
+		},
+		{
+			"id": 9,
+			"nome_completo": "Juliana Figueiredo",
+			"endereco_completo": "Rua Primavera, 99 - Vila Verde, Florianópolis - SC",
+			"codigo_pronto": "PJWV8CAYTFX1KQNMRZB54L36DGE920",
+			"codigo_cns": "123456789000009",
+			"sexo": "F",
+			"data_nascimento": "1991-09-03"
+		},
+		{
+			"id": 10,
+			"nome_completo": "Thiago Souza Lima",
+			"endereco_completo": "Av. das Nações, 321 - Setor Oeste, Goiânia - GO",
+			"codigo_pronto": "KNF9V2WTG5JX0ZMRCDPLQY8EAB137H",
+			"codigo_cns": "123456789000010",
+			"sexo": "M",
+			"data_nascimento": "1984-02-27"
+		}
+	],
+	"medico": [
+		{
+			"id": 1,
+			"nome": "Dr. Marcelo Tavares",
+			"crm": "CRM12345-SP",
+			"especialidade": "Cardiologia"
+		},
+		{
+			"id": 2,
+			"nome": "Dra. Renata Oliveira",
+			"crm": "CRM23456-RJ",
+			"especialidade": "Pediatria"
+		},
+		{
+			"id": 3,
+			"nome": "Dr. Roberto Nunes",
+			"crm": "CRM34567-MG",
+			"especialidade": "Ortopedia"
+		},
+		{
+			"id": 4,
+			"nome": "Dra. Carla Mendes",
+			"crm": "CRM45678-RS",
+			"especialidade": "Dermatologia"
+		},
+		{
+			"id": 5,
+			"nome": "Dr. Eduardo Fonseca",
+			"crm": "CRM56789-BA",
+			"especialidade": "Neurologia"
+		},
+		{
+			"id": 6,
+			"nome": "Dra. Marina Castro",
+			"crm": "CRM67890-PR",
+			"especialidade": "Ginecologia"
+		},
+		{
+			"id": 7,
+			"nome": "Dr. André Santos",
+			"crm": "CRM78901-PE",
+			"especialidade": "Psiquiatria"
+		},
+		{
+			"id": 8,
+			"nome": "Dra. Beatriz Lima",
+			"crm": "CRM89012-CE",
+			"especialidade": "Endocrinologia"
+		},
+		{
+			"id": 9,
+			"nome": "Dr. Fábio Almeida",
+			"crm": "CRM90123-SC",
+			"especialidade": "Oftalmologia"
+		},
+		{
+			"id": 10,
+			"nome": "Dra. Paula Reis",
+			"crm": "CRM01234-DF",
+			"especialidade": "Reumatologia"
+		}
+	],
+	"nome_medicamentos": [
+		{
+			"nome_comercial": "Prednisona",
+			"principio_ativo": "Prednisona",
+			"para_que_serve": "Bronquite e inflamações"
+		},
+		{
+			"nome_comercial": "Amoxicilina + Clavulanato de Potássio",
+			"principio_ativo": "Amoxicilina + Ácido Clavulânico",
+			"para_que_serve": "Infecções respiratórias e bronquite bacteriana"
+		},
+		{
+			"nome_comercial": "Clenil A",
+			"principio_ativo": "Dipropionato de Beclometasona",
+			"para_que_serve": "Asma e bronquite"
+		},
+		{
+			"nome_comercial": "Aerodini",
+			"principio_ativo": "Salbutamol",
+			"para_que_serve": "Crises de asma e broncoespasmos"
+		},
+		{
+			"nome_comercial": "Salbutamol",
+			"principio_ativo": "Salbutamol",
+			"para_que_serve": "Bronquite e crises asmáticas"
+		},
+		{
+			"nome_comercial": "Capoten",
+			"principio_ativo": "Captopril",
+			"para_que_serve": "Hipertensão arterial"
+		},
+		{
+			"nome_comercial": "Renitec",
+			"principio_ativo": "Enalapril",
+			"para_que_serve": "Hipertensão e insuficiência cardíaca"
+		},
+		{
+			"nome_comercial": "Tritace",
+			"principio_ativo": "Ramipril",
+			"para_que_serve": "Pressão alta e proteção cardiovascular"
+		},
+		{
+			"nome_comercial": "Zestril",
+			"principio_ativo": "Lisinopril",
+			"para_que_serve": "Hipertensão e insuficiência cardíaca"
+		},
+		{
+			"nome_comercial": "Cozaar",
+			"principio_ativo": "Losartana potássica",
+			"para_que_serve": "Hipertensão e proteção renal"
+		},
+		{
+			"nome_comercial": "Diovan",
+			"principio_ativo": "Valsartana",
+			"para_que_serve": "Hipertensão arterial"
+		},
+		{
+			"nome_comercial": "Atacand",
+			"principio_ativo": "Candesartana",
+			"para_que_serve": "Hipertensão e insuficiência cardíaca"
+		},
+		{
+			"nome_comercial": "Aprovel",
+			"principio_ativo": "Irbesartana",
+			"para_que_serve": "Hipertensão e nefropatia diabética"
+		},
+		{
+			"nome_comercial": "Tenormin",
+			"principio_ativo": "Atenolol",
+			"para_que_serve": "Hipertensão e arritmias"
+		},
+		{
+			"nome_comercial": "Inderal",
+			"principio_ativo": "Propranolol",
+			"para_que_serve": "Hipertensão, enxaqueca e ansiedade"
+		},
+		{
+			"nome_comercial": "Seloken",
+			"principio_ativo": "Metoprolol",
+			"para_que_serve": "Hipertensão e insuficiência cardíaca"
+		},
+		{
+			"nome_comercial": "Carvedilol",
+			"principio_ativo": "Carvedilol",
+			"para_que_serve": "Hipertensão e insuficiência cardíaca"
+		},
+		{
+			"nome_comercial": "Norvasc",
+			"principio_ativo": "Anlodipino",
+			"para_que_serve": "Hipertensão e angina"
+		},
+		{
+			"nome_comercial": "Adalat",
+			"principio_ativo": "Nifedipino",
+			"para_que_serve": "Hipertensão e crises hipertensivas"
+		},
+		{
+			"nome_comercial": "Isoptin",
+			"principio_ativo": "Verapamil",
+			"para_que_serve": "Hipertensão e arritmias"
+		},
+		{
+			"nome_comercial": "Cardizem",
+			"principio_ativo": "Diltiazem",
+			"para_que_serve": "Hipertensão e angina"
+		},
+		{
+			"nome_comercial": "Carduran",
+			"principio_ativo": "Mesilato de doxazosina",
+			"para_que_serve": "Hipertensão e hiperplasia prostática"
+		},
+		{
+			"nome_comercial": "Minipress",
+			"principio_ativo": "Cloridrato de prazosina",
+			"para_que_serve": "Hipertensão"
+		},
+		{
+			"nome_comercial": "Apresolina",
+			"principio_ativo": "Cloridrato de hidralazina",
+			"para_que_serve": "Hipertensão grave"
+		},
+		{
+			"nome_comercial": "Loniten",
+			"principio_ativo": "Minoxidil",
+			"para_que_serve": "Hipertensão resistente"
+		},
+		{
+			"nome_comercial": "Rasilez",
+			"principio_ativo": "Alisquireno",
+			"para_que_serve": "Hipertensão"
+		},
+		{
+			"nome_comercial": "Clorana",
+			"principio_ativo": "Clortalidona",
+			"para_que_serve": "Hipertensão e retenção de líquidos"
+		},
+		{
+			"nome_comercial": "Lasix",
+			"principio_ativo": "Furosemida",
+			"para_que_serve": "Hipertensão e edema"
+		},
+		{
+			"nome_comercial": "Aldactone",
+			"principio_ativo": "Espironolactona",
+			"para_que_serve": "Hipertensão e insuficiência cardíaca"
+		},
+		{
+			"nome_comercial": "Natrilix",
+			"principio_ativo": "Indapamida",
+			"para_que_serve": "Hipertensão"
+		},
+		{
+			"nome_comercial": "Hidroclorotiazida",
+			"principio_ativo": "Hidroclorotiazida",
+			"para_que_serve": "Hipertensão e retenção de líquidos"
+		},
+		{
+			"nome_comercial": "Lozart H",
+			"principio_ativo": "Losartana + Hidroclorotiazida",
+			"para_que_serve": "Hipertensão"
+		},
+		{
+			"nome_comercial": "Enalapril H",
+			"principio_ativo": "Enalapril + Hidroclorotiazida",
+			"para_que_serve": "Hipertensão"
+		},
+		{
+			"nome_comercial": "Exforge",
+			"principio_ativo": "Anlodipino + Valsartana",
+			"para_que_serve": "Hipertensão"
+		},
+		{
+			"nome_comercial": "Glifage",
+			"principio_ativo": "Metformina",
+			"para_que_serve": "Pré-diabetes e diabetes tipo 2"
+		},
+		{
+			"nome_comercial": "Glucobay",
+			"principio_ativo": "Acarbose",
+			"para_que_serve": "Pré-diabetes e controle glicêmico"
+		},
+		{
+			"nome_comercial": "Victoza",
+			"principio_ativo": "Liraglutida",
+			"para_que_serve": "Controle glicêmico e perda de peso"
+		},
+		{
+			"nome_comercial": "Ozempic",
+			"principio_ativo": "Semaglutida",
+			"para_que_serve": "Controle glicêmico e perda de peso"
+		},
+		{
+			"nome_comercial": "Actos",
+			"principio_ativo": "Pioglitazona",
+			"para_que_serve": "Controle da resistência à insulina"
+		},
+		{
+			"nome_comercial": "Xenical",
+			"principio_ativo": "Orlistate",
+			"para_que_serve": "Controle de peso no pré-diabetes"
+		},
+		{
+			"nome_comercial": "NovoRapid",
+			"principio_ativo": "Insulina Aspart",
+			"para_que_serve": "Diabetes tipo 1 e 2"
+		},
+		{
+			"nome_comercial": "Humalog",
+			"principio_ativo": "Insulina Lispro",
+			"para_que_serve": "Diabetes tipo 1 e 2"
+		},
+		{
+			"nome_comercial": "Apidra",
+			"principio_ativo": "Insulina Glulisina",
+			"para_que_serve": "Diabetes tipo 1 e 2"
+		},
+		{
+			"nome_comercial": "Humulin N",
+			"principio_ativo": "Insulina NPH",
+			"para_que_serve": "Diabetes tipo 1 e 2"
+		},
+		{
+			"nome_comercial": "Lantus",
+			"principio_ativo": "Insulina Glargina",
+			"para_que_serve": "Diabetes tipo 1 e 2"
+		},
+		{
+			"nome_comercial": "Levemir",
+			"principio_ativo": "Insulina Detemir",
+			"para_que_serve": "Diabetes tipo 1 e 2"
+		},
+		{
+			"nome_comercial": "Tresiba",
+			"principio_ativo": "Insulina Degludeca",
+			"para_que_serve": "Diabetes tipo 1 e 2"
+		},
+		{
+			"nome_comercial": "Daonil",
+			"principio_ativo": "Glibenclamida",
+			"para_que_serve": "Diabetes tipo 2"
+		},
+		{
+			"nome_comercial": "Diamicron",
+			"principio_ativo": "Gliclazida",
+			"para_que_serve": "Diabetes tipo 2"
+		},
+		{
+			"nome_comercial": "Amaryl",
+			"principio_ativo": "Glimepirida",
+			"para_que_serve": "Diabetes tipo 2"
+		},
+		{
+			"nome_comercial": "Januvia",
+			"principio_ativo": "Sitagliptina",
+			"para_que_serve": "Diabetes tipo 2"
+		},
+		{
+			"nome_comercial": "Galvus",
+			"principio_ativo": "Vildagliptina",
+			"para_que_serve": "Diabetes tipo 2"
+		},
+		{
+			"nome_comercial": "Onglyza",
+			"principio_ativo": "Saxagliptina",
+			"para_que_serve": "Diabetes tipo 2"
+		},
+		{
+			"nome_comercial": "Tradjenta",
+			"principio_ativo": "Linagliptina",
+			"para_que_serve": "Diabetes tipo 2"
+		},
+		{
+			"nome_comercial": "Jardiance",
+			"principio_ativo": "Empagliflozina",
+			"para_que_serve": "Diabetes tipo 2"
+		},
+		{
+			"nome_comercial": "Forxiga",
+			"principio_ativo": "Dapagliflozina",
+			"para_que_serve": "Diabetes tipo 2"
+		},
+		{
+			"nome_comercial": "Invokana",
+			"principio_ativo": "Canagliflozina",
+			"para_que_serve": "Diabetes tipo 2"
+		},
+		{
+			"nome_comercial": "Byetta",
+			"principio_ativo": "Exenatida",
+			"para_que_serve": "Diabetes tipo 2"
+		},
+		{
+			"nome_comercial": "Trulicity",
+			"principio_ativo": "Dulaglutida",
+			"para_que_serve": "Diabetes tipo 2"
+		},
+		{
+			"nome_comercial": "Janumet",
+			"principio_ativo": "Sitagliptina + Metformina",
+			"para_que_serve": "Diabetes tipo 2"
+		},
+		{
+			"nome_comercial": "Galvus Met",
+			"principio_ativo": "Vildagliptina + Metformina",
+			"para_que_serve": "Diabetes tipo 2"
+		},
+		{
+			"nome_comercial": "Jardiance Duo",
+			"principio_ativo": "Empagliflozina + Metformina",
+			"para_que_serve": "Diabetes tipo 2"
+		},
+		{
+			"nome_comercial": "Xigduo",
+			"principio_ativo": "Dapagliflozina + Metformina",
+			"para_que_serve": "Diabetes tipo 2"
+		},
+		{
+			"nome_comercial": "Prozac",
+			"principio_ativo": "Fluoxetina",
+			"para_que_serve": "Depressão"
+		},
+		{
+			"nome_comercial": "Zoloft",
+			"principio_ativo": "Sertralina",
+			"para_que_serve": "Depressão"
+		},
+		{
+			"nome_comercial": "Lexapro",
+			"principio_ativo": "Escitalopram",
+			"para_que_serve": "Depressão"
+		},
+		{
+			"nome_comercial": "Cymbalta",
+			"principio_ativo": "Duloxetina",
+			"para_que_serve": "Depressão"
+		},
+		{
+			"nome_comercial": "Efexor XR",
+			"principio_ativo": "Venlafaxina",
+			"para_que_serve": "Depressão"
+		},
+		{
+			"nome_comercial": "Elavil",
+			"principio_ativo": "Amitriptilina",
+			"para_que_serve": "Depressão"
+		},
+		{
+			"nome_comercial": "Paxil",
+			"principio_ativo": "Paroxetina",
+			"para_que_serve": "Depressão"
+		},
+		{
+			"nome_comercial": "Wellbutrin",
+			"principio_ativo": "Bupropiona",
+			"para_que_serve": "Depressão"
+		},
+		{
+			"nome_comercial": "Remeron",
+			"principio_ativo": "Mirtazapina",
+			"para_que_serve": "Depressão"
+		},
+		{
+			"nome_comercial": "Trittico",
+			"principio_ativo": "Trazodona",
+			"para_que_serve": "Depressão"
+		}
+	],
+	"cid": [
+		{
+			"codigo": "J45",
+			"descricao": "Asma"
+		},
+		{
+			"codigo": "I10",
+			"descricao": "Hipertensão essencial (primária)"
+		},
+		{
+			"codigo": "I95",
+			"descricao": "Hipotensão"
+		},
+		{
+			"codigo": "E10",
+			"descricao": "Diabetes mellitus tipo 1"
+		},
+		{
+			"codigo": "E11",
+			"descricao": "Diabetes mellitus tipo 2"
+		},
+		{
+			"codigo": "O24",
+			"descricao": "Diabetes mellitus gestacional"
+		},
+		{
+			"codigo": "F32",
+			"descricao": "Episódios depressivos"
+		},
+		{
+			"codigo": "F33",
+			"descricao": "Transtorno depressivo recorrente"
+		}
+	],
+	"receita": [
+		{
+			"id": 1,
+			"paciente_id": 1,
+			"medico_id": 2,
+			"cid_id": 1,
+			"data_emissao": "2025-05-08",
+			"observacoes": "Paciente com diabetes tipo 1, início de controle glicêmico"
+		},
+		{
+			"id": 2,
+			"paciente_id": 3,
+			"medico_id": 1,
+			"cid_id": 1,
+			"data_emissao": "2025-05-08",
+			"observacoes": "Hiperglicemia em jejum, ajustar insulina rápida"
+		},
+		{
+			"id": 3,
+			"paciente_id": 4,
+			"medico_id": 5,
+			"cid_id": 1,
+			"data_emissao": "2025-05-08",
+			"observacoes": "Controle glicêmico instável, ajuste de dose"
+		},
+		{
+			"id": 4,
+			"paciente_id": 2,
+			"medico_id": 4,
+			"cid_id": 1,
+			"data_emissao": "2025-05-08",
+			"observacoes": "Paciente com DM2, uso de insulina basal"
+		},
+		{
+			"id": 5,
+			"paciente_id": 5,
+			"medico_id": 3,
+			"cid_id": 1,
+			"data_emissao": "2025-05-08",
+			"observacoes": "Paciente em uso contínuo de insulina de ação ultra longa"
+		},
+		{
+			"id": 6,
+			"paciente_id": 1,
+			"medico_id": 2,
+			"cid_id": 2,
+			"data_emissao": "2025-05-08",
+			"observacoes": "Inflamação aguda, corticoide prescrito por 5 dias"
+		},
+		{
+			"id": 7,
+			"paciente_id": 1,
+			"medico_id": 2,
+			"cid_id": 3,
+			"data_emissao": "2025-05-08",
+			"observacoes": "Infecção respiratória, antibiótico por 7 dias"
+		},
+		{
+			"id": 8,
+			"paciente_id": 1,
+			"medico_id": 2,
+			"cid_id": 4,
+			"data_emissao": "2025-05-08",
+			"observacoes": "Crise de asma moderada, prescrito broncodilatador"
+		},
+		{
+			"id": 9,
+			"paciente_id": 1,
+			"medico_id": 2,
+			"cid_id": 4,
+			"data_emissao": "2025-05-08",
+			"observacoes": "Controle de asma crônica, manutenção com corticosteroide inalatório"
+		},
+		{
+			"id": 10,
+			"paciente_id": 1,
+			"medico_id": 2,
+			"cid_id": 4,
+			"data_emissao": "2025-05-08",
+			"observacoes": "Broncoespasmo eventual, uso conforme necessidade"
+		},
+		{
+			"id": 11,
+			"paciente_id": 1,
+			"medico_id": 2,
+			"cid_id": 5,
+			"data_emissao": "2025-05-08",
+			"observacoes": "Controle de pressão arterial"
+		},
+		{
+			"id": 12,
+			"paciente_id": 1,
+			"medico_id": 2,
+			"cid_id": 6,
+			"data_emissao": "2025-05-08",
+			"observacoes": "Tratamento para insuficiência adrenal"
+		},
+		{
+			"id": 13,
+			"paciente_id": 1,
+			"medico_id": 2,
+			"cid_id": 6,
+			"data_emissao": "2025-05-08",
+			"observacoes": "Paciente com hipotensão ortostática, uso contínuo"
+		},
+		{
+			"id": 14,
+			"paciente_id": 1,
+			"medico_id": 2,
+			"cid_id": 6,
+			"data_emissao": "2025-05-08",
+			"observacoes": "Adjuvante para fadiga e sonolência diurna"
+		}
+	],
+	"receita_medicamentos": [
+		{
+			"id": 1,
+			"medicamento_id": 1,
+			"quantidade": 45,
+			"dose": "10 unidades",
+			"frequencia": 1,
+			"orientacao": "Aplicar à noite, via subcutânea"
+		},
+		{
+			"id": 2,
+			"medicamento_id": 2,
+			"quantidade": 41,
+			"dose": "5 unidades",
+			"frequencia": 3,
+			"orientacao": "Aplicar antes das principais refeições"
+		},
+		{
+			"id": 3,
+			"medicamento_id": 3,
+			"quantidade": 42,
+			"dose": "6 unidades",
+			"frequencia": 2,
+			"orientacao": "Aplicar antes do café da manhã e jantar"
+		},
+		{
+			"id": 4,
+			"medicamento_id": 4,
+			"quantidade": 46,
+			"dose": "12 unidades",
+			"frequencia": 1,
+			"orientacao": "Aplicar à noite"
+		},
+		{
+			"id": 5,
+			"medicamento_id": 5,
+			"quantidade": 47,
+			"dose": "15 unidades",
+			"frequencia": 1,
+			"orientacao": "Aplicar uma vez ao dia, sempre no mesmo horário"
+		},
+		{
+			"id": 6,
+			"medicamento_id": 6,
+			"quantidade": 1,
+			"dose": "20mg",
+			"frequencia": 5,
+			"orientacao": "Tomar após o café da manhã"
+		},
+		{
+			"id": 7,
+			"medicamento_id": 7,
+			"quantidade": 2,
+			"dose": "500mg",
+			"frequencia": 21,
+			"orientacao": "Tomar a cada 8 horas durante 7 dias"
+		},
+		{
+			"id": 8,
+			"medicamento_id": 8,
+			"quantidade": 5,
+			"dose": "2 jatos",
+			"frequencia": 6,
+			"orientacao": "Inalar a cada 4-6 horas em caso de dificuldade respiratória"
+		},
+		{
+			"id": 9,
+			"medicamento_id": 9,
+			"quantidade": 3,
+			"dose": "2 jatos",
+			"frequencia": 2,
+			"orientacao": "Inalar pela manhã e à noite"
+		},
+		{
+			"id": 10,
+			"medicamento_id": 10,
+			"quantidade": 4,
+			"dose": "1 jato",
+			"frequencia": 3,
+			"orientacao": "Inalar 3 vezes ao dia, conforme necessidade"
+		},
+		{
+			"id": 11,
+			"medicamento_id": 11,
+			"quantidade": 14,
+			"dose": "50mg",
+			"frequencia": 30,
+			"orientacao": "Tomar 1 comprimido uma vez ao dia"
+		}
+	],
+	"consulta_ia": [
+		{
+			"receita_id": 0,
+			"medicamento_id": 1,
+			"dosagem": "10mg",
+			"quantidade": 5,
+			"instrucoes": "Tomar 1 comprimido por dia, de manhã"
+		},
+		{
+			"receita_id": 0,
+			"medicamento_id": 2,
+			"dosagem": "500mg",
+			"quantidade": 10,
+			"instrucoes": "Tomar 1 comprimido a cada 12 horas por 7 dias"
+		},
+		{
+			"receita_id": 0,
+			"medicamento_id": 3,
+			"dosagem": "200mcg",
+			"quantidade": 6,
+			"instrucoes": "Inalar 2 jatos pela manhã e à noite"
+		},
+		{
+			"receita_id": 0,
+			"medicamento_id": 4,
+			"dosagem": "100mcg",
+			"quantidade": 3,
+			"instrucoes": "Inalar 2 jatos em caso de crise de asma"
+		},
+		{
+			"receita_id": 0,
+			"medicamento_id": 5,
+			"dosagem": "200mcg",
+			"quantidade": 6,
+			"instrucoes": "Inalar 2 jatos conforme necessidade para crises asmáticas"
+		}
+	]
+}

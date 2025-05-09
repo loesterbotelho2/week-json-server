@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  backend:
+    build: .
+    container_name: backend
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./db.json:/app/db.json
+    restart: always
+    networks:
+      loester-network:
+        ipv4_address: 192.168.11.110
+
+volumes:
+  backend_data:
+    driver: local
+
+networks:
+  loester-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.11.0/24
