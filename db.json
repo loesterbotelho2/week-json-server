@@ -522,34 +522,42 @@
 	],
 	"cid": [
 		{
+			"id": 1,
 			"codigo": "J45",
 			"descricao": "Asma"
 		},
 		{
+			"id": 2,
 			"codigo": "I10",
 			"descricao": "Hipertensão essencial (primária)"
 		},
 		{
+			"id": 3,
 			"codigo": "I95",
 			"descricao": "Hipotensão"
 		},
 		{
+			"id": 4,
 			"codigo": "E10",
 			"descricao": "Diabetes mellitus tipo 1"
 		},
 		{
+			"id": 5,
 			"codigo": "E11",
 			"descricao": "Diabetes mellitus tipo 2"
 		},
 		{
+			"id": 6,
 			"codigo": "O24",
 			"descricao": "Diabetes mellitus gestacional"
 		},
 		{
+			"id": 7,
 			"codigo": "F32",
 			"descricao": "Episódios depressivos"
 		},
 		{
+			"id": 8,
 			"codigo": "F33",
 			"descricao": "Transtorno depressivo recorrente"
 		}
@@ -562,200 +570,22 @@
 			"cid_id": 1,
 			"data_emissao": "2025-05-08",
 			"observacoes": "Paciente com diabetes tipo 1, início de controle glicêmico"
-		},
-		{
-			"id": 2,
-			"paciente_id": 3,
-			"medico_id": 1,
-			"cid_id": 1,
-			"data_emissao": "2025-05-08",
-			"observacoes": "Hiperglicemia em jejum, ajustar insulina rápida"
-		},
-		{
-			"id": 3,
-			"paciente_id": 4,
-			"medico_id": 5,
-			"cid_id": 1,
-			"data_emissao": "2025-05-08",
-			"observacoes": "Controle glicêmico instável, ajuste de dose"
-		},
-		{
-			"id": 4,
-			"paciente_id": 2,
-			"medico_id": 4,
-			"cid_id": 1,
-			"data_emissao": "2025-05-08",
-			"observacoes": "Paciente com DM2, uso de insulina basal"
-		},
-		{
-			"id": 5,
-			"paciente_id": 5,
-			"medico_id": 3,
-			"cid_id": 1,
-			"data_emissao": "2025-05-08",
-			"observacoes": "Paciente em uso contínuo de insulina de ação ultra longa"
-		},
-		{
-			"id": 6,
-			"paciente_id": 1,
-			"medico_id": 2,
-			"cid_id": 2,
-			"data_emissao": "2025-05-08",
-			"observacoes": "Inflamação aguda, corticoide prescrito por 5 dias"
-		},
-		{
-			"id": 7,
-			"paciente_id": 1,
-			"medico_id": 2,
-			"cid_id": 3,
-			"data_emissao": "2025-05-08",
-			"observacoes": "Infecção respiratória, antibiótico por 7 dias"
-		},
-		{
-			"id": 8,
-			"paciente_id": 1,
-			"medico_id": 2,
-			"cid_id": 4,
-			"data_emissao": "2025-05-08",
-			"observacoes": "Crise de asma moderada, prescrito broncodilatador"
-		},
-		{
-			"id": 9,
-			"paciente_id": 1,
-			"medico_id": 2,
-			"cid_id": 4,
-			"data_emissao": "2025-05-08",
-			"observacoes": "Controle de asma crônica, manutenção com corticosteroide inalatório"
-		},
-		{
-			"id": 10,
-			"paciente_id": 1,
-			"medico_id": 2,
-			"cid_id": 4,
-			"data_emissao": "2025-05-08",
-			"observacoes": "Broncoespasmo eventual, uso conforme necessidade"
-		},
-		{
-			"id": 11,
-			"paciente_id": 1,
-			"medico_id": 2,
-			"cid_id": 5,
-			"data_emissao": "2025-05-08",
-			"observacoes": "Controle de pressão arterial"
-		},
-		{
-			"id": 12,
-			"paciente_id": 1,
-			"medico_id": 2,
-			"cid_id": 6,
-			"data_emissao": "2025-05-08",
-			"observacoes": "Tratamento para insuficiência adrenal"
-		},
-		{
-			"id": 13,
-			"paciente_id": 1,
-			"medico_id": 2,
-			"cid_id": 6,
-			"data_emissao": "2025-05-08",
-			"observacoes": "Paciente com hipotensão ortostática, uso contínuo"
-		},
-		{
-			"id": 14,
-			"paciente_id": 1,
-			"medico_id": 2,
-			"cid_id": 6,
-			"data_emissao": "2025-05-08",
-			"observacoes": "Adjuvante para fadiga e sonolência diurna"
 		}
 	],
 	"receita_medicamentos": [
 		{
 			"id": 1,
-			"medicamento_id": 1,
+			"receita_id": 1,
+			"medicamento": {
+				"medicamento_id": 1,
+				"nome_comercial": "Prednisona",
+				"principio_ativo": "Prednisona",
+				"para_que_serve": "Bronquite e inflamações"
+			},
 			"quantidade": 45,
 			"dose": "10 unidades",
 			"frequencia": 1,
 			"orientacao": "Aplicar à noite, via subcutânea"
-		},
-		{
-			"id": 2,
-			"medicamento_id": 2,
-			"quantidade": 41,
-			"dose": "5 unidades",
-			"frequencia": 3,
-			"orientacao": "Aplicar antes das principais refeições"
-		},
-		{
-			"id": 3,
-			"medicamento_id": 3,
-			"quantidade": 42,
-			"dose": "6 unidades",
-			"frequencia": 2,
-			"orientacao": "Aplicar antes do café da manhã e jantar"
-		},
-		{
-			"id": 4,
-			"medicamento_id": 4,
-			"quantidade": 46,
-			"dose": "12 unidades",
-			"frequencia": 1,
-			"orientacao": "Aplicar à noite"
-		},
-		{
-			"id": 5,
-			"medicamento_id": 5,
-			"quantidade": 47,
-			"dose": "15 unidades",
-			"frequencia": 1,
-			"orientacao": "Aplicar uma vez ao dia, sempre no mesmo horário"
-		},
-		{
-			"id": 6,
-			"medicamento_id": 6,
-			"quantidade": 1,
-			"dose": "20mg",
-			"frequencia": 5,
-			"orientacao": "Tomar após o café da manhã"
-		},
-		{
-			"id": 7,
-			"medicamento_id": 7,
-			"quantidade": 2,
-			"dose": "500mg",
-			"frequencia": 21,
-			"orientacao": "Tomar a cada 8 horas durante 7 dias"
-		},
-		{
-			"id": 8,
-			"medicamento_id": 8,
-			"quantidade": 5,
-			"dose": "2 jatos",
-			"frequencia": 6,
-			"orientacao": "Inalar a cada 4-6 horas em caso de dificuldade respiratória"
-		},
-		{
-			"id": 9,
-			"medicamento_id": 9,
-			"quantidade": 3,
-			"dose": "2 jatos",
-			"frequencia": 2,
-			"orientacao": "Inalar pela manhã e à noite"
-		},
-		{
-			"id": 10,
-			"medicamento_id": 10,
-			"quantidade": 4,
-			"dose": "1 jato",
-			"frequencia": 3,
-			"orientacao": "Inalar 3 vezes ao dia, conforme necessidade"
-		},
-		{
-			"id": 11,
-			"medicamento_id": 11,
-			"quantidade": 14,
-			"dose": "50mg",
-			"frequencia": 30,
-			"orientacao": "Tomar 1 comprimido uma vez ao dia"
 		}
 	],
 	"consulta_ia": [
